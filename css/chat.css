@@ -1,0 +1,80 @@
+.chat {
+}
+
+.chat-header {
+    cursor: default;
+}
+
+.message-list {
+    overflow: scroll;
+    margin-top: 56px;
+}
+.message {
+    background-color: #ededed;
+    margin-bottom: 3pt;
+    margin-top: 3pt;
+    padding-top: 8pt;
+    padding-bottom: 8pt;
+    border-bottom: 1pt solid antiquewhite;
+}
+.message-sender {
+    font-weight: bold;
+}
+.message-sender.sender-me {
+    color: #007bff;
+}
+.col-message-timestamp {
+    text-align: right;
+}
+.message-timestamp {
+    font-size: 70%;
+    color: grey;
+}
+.message-content {
+    padding-top: 5pt;
+    font-size: 90%;
+}
+
+.chat-bottom {
+    padding-bottom: 5pt;
+    padding-top: 8pt;
+    background-color: #ffffff;
+}
+.message-input {
+    resize: none;
+    margin-bottom: 5pt;
+}
+.btn-send-message {
+
+}
+
+
+@media (max-width: 576px) {
+    .message-list {
+        margin-bottom: 124px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .message-list {
+        margin-bottom: 124px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .message-list {
+        margin-bottom: 86px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
