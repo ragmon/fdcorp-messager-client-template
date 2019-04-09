@@ -1,4 +1,5 @@
 .chat {
+    margin-top: 56px;
 }
 
 .chat-header {
@@ -7,13 +8,12 @@
 
 /* Chat Display */
 .message-list {
-    overflow: scroll;
-    margin-top: 56px;
+
 }
 .message {
     background-color: #ededed;
     margin-bottom: 3pt;
-    margin-top: 3pt;
+    /*margin-top: 3pt;*/
     padding-top: 8pt;
     padding-bottom: 8pt;
     border-bottom: 1pt solid antiquewhite;
@@ -61,9 +61,12 @@
 
 /* Welcome Display */
 .welcome {
+    /*margin-top: 56px;*/
     background-color: #000000;
     width: 100%;
     height: 100%;
+    position: absolute;
+    overflow: hidden;
 }
 .welcome-image {
     width: 100%;
@@ -83,22 +86,22 @@
 
 
 @media (max-width: 576px) {
-    .message-list {
+    .chat {
         margin-bottom: 124px;
     }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    .message-list {
+    .chat {
         margin-bottom: 124px;
     }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .message-list {
-        margin-bottom: 86px;
+    .chat {
+        margin-bottom: 98px;
     }
 }
 
